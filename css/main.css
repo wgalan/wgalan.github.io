@@ -1,0 +1,304 @@
+/* Customize for phones */
+@media (max-width: 425px) {
+	/******************
+  	* Globlal content
+  	******************/
+	/* Space out content a bit, default padding-top is 20*/
+  	body {
+    	/* Nothing here yet */
+  	}
+
+  	/* No padding for mobile view */
+  	.container {
+    	padding-top: 0px;
+    	padding-bottom: 0px;
+    	padding-right: 0px;
+    	padding-left: 0px;
+  	}
+
+  	.navbar {
+    	background-color: #262828;
+    	margin-bottom: 0px;
+    	padding-bottom: 10px;
+  	}
+
+  	.navbar-header {
+    	padding-bottom: 1px;
+  	}
+
+  	.navbar-brand>img {
+    	max-height: 50px;
+    	max-width: 50px;
+  	}
+
+  	.navbar-toggle {
+    	margin-top: 20px;
+  	}
+
+  	.navbar-collapse {
+    	float: left;
+    	height: 200px;
+    	padding-bottom: 1px;
+    	border-top: 1px solid transparent;
+    	margin-top: 10px;
+    	width: 100%;
+  	}
+
+  	.navbar-nav {
+    	float:left;
+    	margin-top: 5px;
+  	}
+  
+  	.navbar-nav i {
+  		padding-right: 20px;
+  	}
+
+  	/* Main marketing message and sign up button */
+  	.container .jumbotron {
+  		background: transparent;
+    	margin-right: 15px;
+    	margin-left: 15px;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	padding: 0px;
+  	}
+
+  	.jumbotron h2 {
+		text-align: left;
+	}
+
+	.jumbotron p {
+		text-align: left;
+		font-size: 16px;
+	}
+	
+	.embed-responsive {
+		margin-bottom: 20px;
+	}
+	
+	/*
+	.btn {
+    	font-size: 21px;
+  	}
+	*/
+
+  	.footer {
+  		padding: 0;
+    	color: #777;
+  	}
+
+  	#social-networking-icons a {
+    	color: #70726F;
+      	font-size: 20px;
+      	padding: 14px;
+      	-webkit-transition: all .5s ease;
+      	transition: all .5s ease;
+  	}
+
+  	#social-networking-icons a:hover {
+      	color: #70726F;
+      	-webkit-transition: all .5s ease;
+      	transition: all .5s ease;
+  	}
+
+	/******************
+  	* Home Page
+  	******************/
+  	.home-img {
+		padding-top: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 20px;
+	}
+	
+	/******************
+  	* About Page
+  	******************/
+	#about-us-video {
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 20px;
+	}
+	
+	#about-us-team-jumbotron > h3 {
+		margin-bottom: 10px;
+	}
+	
+	#about-us-team-container > h4 {
+		text-align: center;
+  	}
+	
+	.about-us-team-img {
+  		padding-left: 10px;
+  		padding-right: 10px;
+  		margin: auto;
+  		display: block;
+  	}
+
+  	/******************
+  	* Contact Page
+  	******************/
+  	#contact-map-jumbotron {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.contact-map-container {
+    	position: relative;
+    	padding-bottom: 35%; /* width */
+    	padding-top: 25px;
+    	height: 0;
+	}
+
+	#contact-map {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#contact-form h2 {
+		text-align: left;
+	}
+
+	#contact-form-message {
+		resize: none;
+	}
+
+	#contact-form-submit-button {
+		/* Empty for now */
+	}
+
+	/*********************
+  	* Current Events Page
+  	*********************/
+
+	/******************
+  	* Services Page
+  	******************/
+  	#services-info-jumbotron h3 {
+		text-align: left;
+  	}
+	
+	.services-main-img {
+		padding: 0;
+		margin-bottom: 25px;
+	}
+
+  	.services-img {
+  		padding-left: 50px;
+		padding-right: 50px;
+		/*margin-bottom: 25px;*/
+		margin: auto;
+  	}
+}
+
+/* Customize container for desktops*/
+@media (min-width: 1024px) {
+  	/******************
+  	* Globlal content
+  	******************/
+	body {
+  		/*min-height: 2000px;*/
+  		padding-top: 40px;
+  		padding-bottom: 40px;
+  		/*margin: 0px 300px 0px 300px;*/
+
+      font-family: 'Source Sans Pro', sans-serif;
+  	}
+	
+  	.container {
+    	/*max-width: 1024px;*/
+    	padding-left: 15px;
+    	padding-right: 15px;
+  	}
+	
+  	.navbar {
+  		/* padding-bottom is distance between navbar and object below */
+  		background-color: transparent;
+  		background: transparent;
+  		border-color: transparent;
+  	}
+  
+  	.navbar-right {
+    	float: left;
+  	}
+
+  	.navbar-brand>img {
+  		max-height: 150px;
+  		max-width: auto;
+  	}
+  	
+  	.navbar-collapse {
+  		margin-right: 10px;
+  		padding-top: 10px;
+  	}
+
+  	.navbar-inverse .navbar-collapse .navbar-nav li > a:hover {
+		color: #70726F;
+  	}
+	
+	.navbar-inverse .navbar-collapse .navbar-nav li > a:focus {
+		color: #70726F;
+  	}
+
+  	.navbar-nav i {
+  		padding-right: 20px;
+  	}
+	
+  	.container {
+		background: transparent;
+		padding: 0px;
+	}
+
+	.jumbotron h2 {
+		text-align: left;
+	}
+
+	.jumbotron p {
+		text-align: left;
+		font-size: 16px;
+	}
+
+	.embed-responsive {
+		margin-bottom: 25px;
+	}
+	
+	/* Only use if more than one of same youtube video */
+	/*
+	.embed-responsive-item {
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-bottom: 30px;
+	}
+	*/
+	
+	/* General button, remove after done with Events, Services
+	.btn {
+  		padding: 14px 24px;
+  		font-size: 21px;
+  	}
+	*/
+
+  	.footer {
+    	padding: 0;
+    	color: #777;
+    	/* Use border for debugging position */
+    	/*border-top: 1px solid #e5e5e5;*/
+  	}
+  	
+	#social-networking-icons a {
+		color: #70726F;
+      	font-size: 20px;
+      	padding: 14px;
+      	-webkit-transition: all .5s ease; /* Safari */
+      	transition: all .5s ease;
+	}
+	
+  	#social-networking-icons a:hover {
+    	color: #70726F;
+    	-webkit-transition: all .5s ease; /* Safari */
+    	transition: all .5s ease;
+  	}
+}
