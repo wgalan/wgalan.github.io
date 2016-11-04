@@ -205,7 +205,8 @@
   		padding-bottom: 40px;
   		/*margin: 0px 300px 0px 300px;*/
 
-      font-family: 'Source Sans Pro', sans-serif;
+    	font-family: 'Source Sans Pro', sans-serif;
+
   	}
 	
   	.container {
@@ -220,66 +221,45 @@
   		background: transparent;
   		border-color: transparent;
   	}
-  
-  	.navbar-right {
-    	float: left;
-  	}
-
+	
+	/*
   	.navbar-brand>img {
   		max-height: 150px;
   		max-width: auto;
   	}
-  	
-  	.navbar-collapse {
-  		margin-right: 10px;
-  		padding-top: 10px;
-  	}
+	*/
 
-  	.navbar-inverse .navbar-collapse .navbar-nav li > a:hover {
-		color: #70726F;
-  	}
+	.navbar-header {
+		padding-left: 15px;
+	}
 	
-	.navbar-inverse .navbar-collapse .navbar-nav li > a:focus {
-		color: #70726F;
-  	}
+	.navbar-header h1 {
+		margin-bottom: 0px;
+	}
 
-  	.navbar-nav i {
-  		padding-right: 20px;
-  	}
-	
-  	.container {
+	.navbar-header h2 {
+		margin-top: 0px;
+		font-weight: 300;
+	}
+
+  	.container .jumbotron {
 		background: transparent;
 		padding: 0px;
 	}
 
-	.jumbotron h2 {
+	.container .jumbotron h2 {
+	
+	}
+	
+	.container .jumbotron h2, h3, h4, p {
+		padding-left: 15px;
 		text-align: left;
 	}
 
-	.jumbotron p {
-		text-align: left;
+	.jumbotron p, ul{
 		font-size: 16px;
+		font-weight: 400;
 	}
-
-	.embed-responsive {
-		margin-bottom: 25px;
-	}
-	
-	/* Only use if more than one of same youtube video */
-	/*
-	.embed-responsive-item {
-		padding-left: 50px;
-		padding-right: 50px;
-		margin-bottom: 30px;
-	}
-	*/
-	
-	/* General button, remove after done with Events, Services
-	.btn {
-  		padding: 14px 24px;
-  		font-size: 21px;
-  	}
-	*/
 
   	.footer {
     	padding: 0;
@@ -287,7 +267,15 @@
     	/* Use border for debugging position */
     	/*border-top: 1px solid #e5e5e5;*/
   	}
+
+  	#copyright {
+  		text-align: left;
+  		padding: 0px;
+  	}
   	
+  	#social-networking-icons {
+  		text-align: right;
+  	}
 	#social-networking-icons a {
 		color: #70726F;
       	font-size: 20px;
